@@ -7,7 +7,7 @@
 - 私の回答はあくまで回答例であって最適解であるとは限りません。
 
 ## コードの動かし方
-LinuxかMacユーザの方は以下のコマンドをターミナルで実行してください。Windowsユーザーの方は各自で調べてみてください。
+LinuxかMacユーザの方は以下のコマンドをターミナルで実行してください。Windowsユーザーの方は各自で調べてください。
 
 ```bash
 $ git clone https://github.com/Kei01234/finalExamination.git
