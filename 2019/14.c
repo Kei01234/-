@@ -9,7 +9,7 @@ typedef struct {
 } coordinate;
 
 //-----
-void InitPoint(coordinate array[], int num) {
+void InitPoint(coordinate *array, int num) {
     for (int i = 0; i < num; ++i) {
         array[i].x=0;
         array[i].y=0;

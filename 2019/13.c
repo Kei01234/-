@@ -9,9 +9,9 @@ typedef struct {
 } coordinate;
 
 int main(void) {
-    //-----
     int num=3;
 
+    //-----
     coordinate *array;
     array=(coordinate *)malloc(num*sizeof(coordinate));
     //-----
