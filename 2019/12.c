@@ -18,8 +18,8 @@ int main(void) {
     coordinate data;
     data.x=3;
     data.y=4;
-    data.t=0;
     data.d=GetFar(data);
+    data.t=0;
 
     //試しに表示
     printf("%f\n", data.x);
