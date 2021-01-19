@@ -8,6 +8,7 @@ typedef struct {
     double d;
 } coordinate;
 
+//-----
 void InitPoint(coordinate array[], int num) {
     for (int i = 0; i < num; ++i) {
         array[i].x=0;
@@ -16,6 +17,7 @@ void InitPoint(coordinate array[], int num) {
         array[i].t=0;
     }
 }
+//-----
 
 int main(void) {
     int num=3;
@@ -23,24 +25,9 @@ int main(void) {
     coordinate *array;
     array=(coordinate *)malloc(num*sizeof(coordinate));
 
-    for (int i = 0; i < num; ++i) {
-        array[i].x=1;
-        array[i].y=1;
-        array[i].d=1;
-        array[i].t=1;
-    }
-
-    for (int i = 0; i < num; ++i) {
-        printf("%f\n", array[i].x);
-        printf("%f\n", array[i].y);
-        printf("%f\n", array[i].d);
-        printf("%f\n", array[i].t);
-
-        printf("\n");
-    }
-
     InitPoint(array, num);
 
+    //試しに表示
     for (int i = 0; i < num; ++i) {
         printf("%f\n", array[i].x);
         printf("%f\n", array[i].y);

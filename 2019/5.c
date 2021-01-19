@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+//-----
 int bigger(int a, int b) {
     if (a>=b) {
         return a;
@@ -7,6 +8,7 @@ int bigger(int a, int b) {
         return b;
     }
 }
+//-----
 
 int main(void) {
     printf("%d\n", bigger(1, 2));
