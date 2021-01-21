@@ -2,11 +2,9 @@
 
 //-----
 double * findMax(double *array, int num) {
-    double max=array[0];
     double *maxPointer=&array[0];
     for (int i = 1; i < num; ++i) {
-        if (max<array[i]) {
-            max=array[i];
+        if (*maxPointer<array[i]) {
             maxPointer=&array[i];
         }
     }
