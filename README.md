@@ -10,7 +10,7 @@
 LinuxかMacユーザの方は以下のコマンドをターミナルで実行してください。Windowsユーザーの方は各自で調べてください。
 
 ```bash
-$ git clone https://github.com/Kei01234/finalExamination.git
+$ git clone https://github.com/Kei01234/basicProgramming.git
 $ cd finalExamination/2019 #2019年過去問のコードを実行する場合
 $ gcc "実行したいC言語ファイル名"
 $ ./a.out
